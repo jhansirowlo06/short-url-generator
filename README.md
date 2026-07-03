@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# 🔗 Short URL Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and efficient URL shortening web application built using the MERN stack. The application allows users to convert long URLs into short, easy-to-share links and redirect users to the original destination instantly.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+* Shorten long URLs into unique, shareable links.
+* Instant redirection to the original URL.
+* Copy shortened URLs with a single click.
+* View URL history and generated links.
+* Responsive and user-friendly interface.
+* RESTful API integration for URL generation and redirection.
+* MongoDB-based storage for managing URL mappings.
 
-### `npm start`
+## 🛠 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Axios
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js
+* Express.js
 
-### `npm run build`
+### Database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone the repository
 
-### `npm run eject`
+```bash
+git clone <repository-url>
+cd short-url-generator
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd client
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend
 
-## Learn More
+```bash
+cd server
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Start the application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Backend
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Frontend
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application will be available at:
 
-### Making a Progressive Web App
+* Frontend: `http://localhost:3000`
+* Backend: `http://localhost:5000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎯 Project Objective
 
-### Advanced Configuration
+The objective of this project is to provide users with a fast, reliable, and secure way to shorten long URLs, making them easier to share and manage while demonstrating full-stack web development using the MERN stack.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Future Enhancements
 
-### Deployment
+* User Authentication
+* QR Code Generation
+* Click Analytics
+* Custom Short URLs
+* URL Expiration
+* Admin Dashboard
+* Password-Protected Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is developed for learning and portfolio purposes.
